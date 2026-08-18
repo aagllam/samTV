@@ -168,11 +168,11 @@ diff %= minute;
 
 const s = Math.floor(diff / second);
 
-document.getElementById('months').textContent = String(m).padStart(2, '0');
-document.getElementById('days').textContent = String(d).padStart(2, '0');
-document.getElementById('hours').textContent = String(h).padStart(2, '0');
-document.getElementById('minutes').textContent = String(min).padStart(2, '0');
-document.getElementById('seconds').textContent = String(s).padStart(2, '0');
+document.getElementById('月').textContent = String(m).padStart(2, '0');
+document.getElementById('日').textContent = String(d).padStart(2, '0');
+document.getElementById('時').textContent = String(h).padStart(2, '0');
+document.getElementById('分').textContent = String(min).padStart(2, '0');
+document.getElementById('秒').textContent = String(s).padStart(2, '0');
 }
 
 setInterval(updateTimer, 1000);
